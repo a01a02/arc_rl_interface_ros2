@@ -7,7 +7,10 @@ import cv2
 import numpy as np
 
 # Load the map.yaml file
-yaml_path = "/home/aaron/Downloads/map_minicity_v3.yaml"
+script_dir = os.path.dirname(os.path.abspath(__file__))
+yaml_path = os.path.normpath(
+    os.path.join(script_dir, "..", "src" ,"arc_rl_interface" ,"arc_rl_interface", "maps", "map_minicity_v3_cleaned.yaml")
+)
 with open(yaml_path, 'r') as f:
     map_metadata = yaml.safe_load(f)
 
