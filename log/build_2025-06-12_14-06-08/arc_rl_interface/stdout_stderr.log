@@ -1,0 +1,24 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:363: UserWarning: Unbuilt egg for pytest-repeat [unknown version] (/usr/lib/python3/dist-packages)
+  self.local_index = Environment(self.shadow_path + sys.path)
+running egg_info
+creating arc_rl_interface.egg-info
+writing arc_rl_interface.egg-info/PKG-INFO
+writing dependency_links to arc_rl_interface.egg-info/dependency_links.txt
+writing entry points to arc_rl_interface.egg-info/entry_points.txt
+writing requirements to arc_rl_interface.egg-info/requires.txt
+writing top-level names to arc_rl_interface.egg-info/top_level.txt
+writing manifest file 'arc_rl_interface.egg-info/SOURCES.txt'
+reading manifest file 'arc_rl_interface.egg-info/SOURCES.txt'
+writing manifest file 'arc_rl_interface.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/aaron/arc_rl_interface_ros2/install/arc_rl_interface/lib/python3.12/site-packages/arc-rl-interface.egg-link (link to .)
+Installing interface_node script to /home/aaron/arc_rl_interface_ros2/install/arc_rl_interface/lib/arc_rl_interface
+
+Installed /home/aaron/arc_rl_interface_ros2/build/arc_rl_interface
+running symlink_data
+creating /home/aaron/arc_rl_interface_ros2/install/arc_rl_interface/share/ament_index
+creating /home/aaron/arc_rl_interface_ros2/install/arc_rl_interface/share/ament_index/resource_index
+creating /home/aaron/arc_rl_interface_ros2/install/arc_rl_interface/share/ament_index/resource_index/packages
+symbolically linking /home/aaron/arc_rl_interface_ros2/build/arc_rl_interface/resource/arc_rl_interface -> /home/aaron/arc_rl_interface_ros2/install/arc_rl_interface/share/ament_index/resource_index/packages
+symbolically linking /home/aaron/arc_rl_interface_ros2/build/arc_rl_interface/package.xml -> /home/aaron/arc_rl_interface_ros2/install/arc_rl_interface/share/arc_rl_interface

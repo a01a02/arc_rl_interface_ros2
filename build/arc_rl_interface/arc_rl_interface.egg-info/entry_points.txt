@@ -1,0 +1,2 @@
+[console_scripts]
+interface_node = arc_rl_interface.interface_node:main

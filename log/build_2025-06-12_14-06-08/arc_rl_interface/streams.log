@@ -1,0 +1,26 @@
+[0.864s] Invoking command in '/home/aaron/arc_rl_interface_ros2/build/arc_rl_interface': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/aaron/arc_rl_interface_ros2/build/arc_rl_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aaron/arc_rl_interface_ros2/install/arc_rl_interface/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/aaron/arc_rl_interface_ros2/build/arc_rl_interface/build --no-deps symlink_data
+[1.214s] running develop
+[1.350s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:363: UserWarning: Unbuilt egg for pytest-repeat [unknown version] (/usr/lib/python3/dist-packages)
+[1.350s]   self.local_index = Environment(self.shadow_path + sys.path)
+[1.374s] running egg_info
+[1.374s] creating arc_rl_interface.egg-info
+[1.390s] writing arc_rl_interface.egg-info/PKG-INFO
+[1.390s] writing dependency_links to arc_rl_interface.egg-info/dependency_links.txt
+[1.391s] writing entry points to arc_rl_interface.egg-info/entry_points.txt
+[1.391s] writing requirements to arc_rl_interface.egg-info/requires.txt
+[1.391s] writing top-level names to arc_rl_interface.egg-info/top_level.txt
+[1.391s] writing manifest file 'arc_rl_interface.egg-info/SOURCES.txt'
+[1.433s] reading manifest file 'arc_rl_interface.egg-info/SOURCES.txt'
+[1.433s] writing manifest file 'arc_rl_interface.egg-info/SOURCES.txt'
+[1.451s] running build_ext
+[1.451s] Creating /home/aaron/arc_rl_interface_ros2/install/arc_rl_interface/lib/python3.12/site-packages/arc-rl-interface.egg-link (link to .)
+[1.452s] Installing interface_node script to /home/aaron/arc_rl_interface_ros2/install/arc_rl_interface/lib/arc_rl_interface
+[1.452s] 
+[1.452s] Installed /home/aaron/arc_rl_interface_ros2/build/arc_rl_interface
+[1.452s] running symlink_data
+[1.452s] creating /home/aaron/arc_rl_interface_ros2/install/arc_rl_interface/share/ament_index
+[1.452s] creating /home/aaron/arc_rl_interface_ros2/install/arc_rl_interface/share/ament_index/resource_index
+[1.452s] creating /home/aaron/arc_rl_interface_ros2/install/arc_rl_interface/share/ament_index/resource_index/packages
+[1.452s] symbolically linking /home/aaron/arc_rl_interface_ros2/build/arc_rl_interface/resource/arc_rl_interface -> /home/aaron/arc_rl_interface_ros2/install/arc_rl_interface/share/ament_index/resource_index/packages
+[1.452s] symbolically linking /home/aaron/arc_rl_interface_ros2/build/arc_rl_interface/package.xml -> /home/aaron/arc_rl_interface_ros2/install/arc_rl_interface/share/arc_rl_interface
+[1.477s] Invoked command in '/home/aaron/arc_rl_interface_ros2/build/arc_rl_interface' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/aaron/arc_rl_interface_ros2/build/arc_rl_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aaron/arc_rl_interface_ros2/install/arc_rl_interface/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/aaron/arc_rl_interface_ros2/build/arc_rl_interface/build --no-deps symlink_data
